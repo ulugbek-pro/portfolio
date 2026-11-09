@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#1f242d] text-white">
+    <header class="flex flex-wrap justify-between items-center px-8 md:px-16 py-6">
+        <h1 class="text-2xl font-bold">
+            Portfolio
+        </h1>
+
+        <nav>
+            <ul class="flex flex-wrap gap-5 md:gap-8 text-sm md:text-base">
+                <li><a href="#home" class="hover:text-[#00EEFF] duration-300">Home</a></li>
+                <li><a href="#about" class="hover:text-[#00EEFF] duration-300">About</a></li>
+                <li><a href="#services" class="hover:text-[#00EEFF] duration-300">Services</a></li>
+                <li><a href="#projects" class="hover:text-[#00EEFF] duration-300">Portfolio</a></li>
+                <li><a href="#contact" class="hover:text-[#00EEFF] duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home"
+        class="min-h-[80vh] flex flex-col-reverse md:flex-row items-center justify-between px-8 md:px-20 py-16 gap-10">
+
+        <div class="max-w-xl">
+            <p class="text-lg">Salom! Men</p>
+
+            <h2 class="text-4xl md:text-5xl font-bold my-2">
+                Ulugbek <span class="text-[#00EEFF]">O‘rinboev</span>
+            </h2>
+
+            <h3 class="text-xl font-semibold mb-5">
+                Men <span class="text-[#00EEFF]">Frontend Developer</span> bo‘lishni o‘rganmoqdaman.
+            </h3>
+
+            <p class="text-gray-300 leading-7">
+                Men g‘oyalarni haqiqiy raqamli mahsulotlarga aylantirishni yoqtiraman.
+                Veb dasturlashni o‘rganaman, yangi loyihalar yarataman va har kuni
+                o‘z ustimda ishlayman.
+            </p>
+
+            <div class="flex gap-4 mt-7">
+                <a href="#projects"
+                    class="bg-[#00EEFF] text-black px-6 py-2 rounded-full font-semibold hover:bg-white duration-300">
+                    Loyihalarim
+                </a>
+
+                <a href="#contact"
+                    class="border border-[#00EEFF] text-[#00EEFF] px-6 py-2 rounded-full hover:bg-[#00EEFF] hover:text-black duration-300">
+                    Bog‘lanish
+                </a>
+            </div>
+        </div>
+
+        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-[#00EEFF] overflow-hidden">
+            <img src="ulugbek.png" alt="Ulugbek rasmi" class="w-full h-full object-cover">
+        </div>
+
+    </section>
+    <section id="about" class="bg-[#323946] px-8 md:px-20 py-16">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Men haqimda <span class="text-[#00EEFF]">!</span>
+        </h2>
+
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-2xl font-semibold mb-4">
+                Bugun o‘rganaman, ertaga yarataman.
+            </h3>
+
+            <p class="text-gray-300 leading-7">
+                Men Ulug‘bekman. Texnologiyalar, dasturlash va foydali raqamli
+                mahsulotlar yaratishga qiziqaman. Dasturlashni HTML asoslaridan
+                boshlaganman va asta-sekin murakkabroq texnologiyalarni o‘rganib
+                boryapman. Muammolarga yechim topish, yangi vositalarni sinab
+                ko‘rish va dasturlar qanday ishlashini tushunish menga yoqadi.
+                Kelajakdagi maqsadim — kuchli Full-stack dasturchi bo‘lish.
+            </p>
+        </div>
+
+    </section>
+    <section id="services" class="px-8 md:px-20 py-16">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Mening <span class="text-[#00EEFF]">Qiziqishlarim</span>
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div class="bg-[#323946] p-7 rounded-xl text-center hover:-translate-y-2 duration-300">
+                <h3 class="text-xl font-bold text-[#00EEFF] mb-3">01</h3>
+                <h4 class="text-lg font-semibold mb-3">Dasturlash</h4>
+                <p class="text-gray-300 text-sm">
+                    Veb-saytlar yaratish va dasturlashni o‘rganish.
+                </p>
+            </div>
+
+            <div class="bg-[#323946] p-7 rounded-xl text-center hover:-translate-y-2 duration-300">
+                <h3 class="text-xl font-bold text-[#00EEFF] mb-3">02</h3>
+                <h4 class="text-lg font-semibold mb-3">Muammolar yechimi</h4>
+                <p class="text-gray-300 text-sm">
+                    Mantiqiy fikrlash va samarali yechimlar topish.
+                </p>
+            </div>
+
+            <div class="bg-[#323946] p-7 rounded-xl text-center hover:-translate-y-2 duration-300">
+                <h3 class="text-xl font-bold text-[#00EEFF] mb-3">03</h3>
+                <h4 class="text-lg font-semibold mb-3">Yangi g‘oyalar</h4>
+                <p class="text-gray-300 text-sm">
+                    Fikrlarni amaliy loyihalarga aylantirish.
+                </p>
+            </div>
+
+            <div class="bg-[#323946] p-7 rounded-xl text-center hover:-translate-y-2 duration-300">
+                <h3 class="text-xl font-bold text-[#00EEFF] mb-3">04</h3>
+                <h4 class="text-lg font-semibold mb-3">Til o‘rganish</h4>
+                <p class="text-gray-300 text-sm">
+                    Ingliz tili va muloqot ko‘nikmalarini rivojlantirish.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="projects" class="bg-[#323946] px-8 md:px-20 py-16">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Latest <span class="text-[#00EEFF]">Projects</span>
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div class="bg-[#1f242d] rounded-xl overflow-hidden">
+                <img src="image copy.png" alt="Olma Market loyihasi" class="w-full h-56 object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-3">Olma Market</h3>
+
+                    <p class="text-gray-300 leading-6 mb-5">
+                        Zamonaviy onlayn savdo platformasi g‘oyasi.
+                        Unda mahsulotlar, kategoriyalar, savatcha va
+                        foydalanuvchi hisoblari kabi imkoniyatlar mavjud.
+                    </p>
+
+                    <a href="#"
+                        class="inline-block bg-[#00EEFF] text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white duration-300">
+                        Loyiha haqida
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="bg-[#1f242d] rounded-xl overflow-hidden">
+                <img src="image.png" alt="NOVA AI loyihasi" class="w-full h-56 object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-3">NOVA AI</h3>
+
+                    <p class="text-gray-300 leading-6 mb-5">
+                        Ovozli muloqot, kundalik vazifalar va kompyuter
+                        bilan ishlashga yordam berishga mo‘ljallangan
+                        shaxsiy sun’iy intellekt yordamchisi.
+                    </p>
+
+                    <a href="#"
+                        class="inline-block bg-[#00EEFF] text-black px-5 py-2 rounded-full text-sm font-semibold hover:bg-white duration-300">
+                        Loyiha haqida
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="px-8 md:px-20 py-16">
+
+        <h2 class="text-3xl font-bold text-center mb-10">
+            Contact <span class="text-[#00EEFF]">Me!</span>
+        </h2>
+
+        <form class="max-w-2xl mx-auto">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                <input type="text" placeholder="Ismingiz"
+                    class="bg-[#323946] p-4 rounded-lg outline-none focus:ring-2 focus:ring-[#00EEFF]">
+
+                <input type="email" placeholder="Email manzilingiz"
+                    class="bg-[#323946] p-4 rounded-lg outline-none focus:ring-2 focus:ring-[#00EEFF]">
+
+                <input type="text" placeholder="Telefon raqamingiz"
+                    class="bg-[#323946] p-4 rounded-lg outline-none focus:ring-2 focus:ring-[#00EEFF]">
+
+                <input type="text" placeholder="Mavzu"
+                    class="bg-[#323946] p-4 rounded-lg outline-none focus:ring-2 focus:ring-[#00EEFF]">
+
+            </div>
+
+            <textarea rows="6" placeholder="Xabaringiz..."
+                class="bg-[#323946] p-4 rounded-lg w-full mt-4 outline-none focus:ring-2 focus:ring-[#00EEFF]"></textarea>
+
+            <div class="text-center mt-5">
+                <button type="button"
+                    class="bg-[#00EEFF] text-black px-8 py-3 rounded-full font-semibold hover:bg-white duration-300">
+                    Xabar yuborish
+                </button>
+            </div>
+
+        </form>
+
+    </section>
+    <footer class="bg-[#323946] text-center py-5">
+        <p class="text-gray-300 text-sm">
+            Copyright © 2023 by Codehal | All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
